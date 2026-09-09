@@ -1,9 +1,9 @@
 cask "qbz" do
   arch arm: "aarch64", intel: "x64"
 
-  version "2.0.2"
-  sha256 arm:   "4c873d368e77b92c9d8090469eef2439d47f8db1e64c4d5934530414583f6fc2",
-         intel: "586e1e903d1a87b902a69999bb12f5f631319dfdc1cee6bbb0364dd140e0a542"
+  version "2.1.0"
+  sha256 arm:   "3d40da33b9dfe2a123e1c14c9dddb3b3ba138e515e27bd47dfcfb53e5bdc178e",
+         intel: "d2a02a7197fe381d5a0cee12acee4b64a5d3c86c51f1d35169d4fca745589cd8"
 
   url "https://github.com/afonsojramos/qbz-macos/releases/download/v#{version}/QBZ_#{version}_#{arch}.dmg"
   name "QBZ"
@@ -15,7 +15,7 @@ cask "qbz" do
     strategy :github_latest
   end
 
-  depends_on macos: :big_sur
+  depends_on macos: :monterey
 
   app "QBZ.app"
 
