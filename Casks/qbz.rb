@@ -8,7 +8,7 @@ cask "qbz" do
   url "https://github.com/afonsojramos/qbz-macos/releases/download/v#{version}/QBZ_#{version}_#{arch}.dmg"
   name "QBZ"
   desc "Desktop client for Qobuz"
-  homepage "https://github.com/vicrodh/qbz"
+  homepage "https://github.com/afonsojramos/qbz"
 
   livecheck do
     url :url
