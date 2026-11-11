@@ -1,9 +1,9 @@
 cask "qbz" do
   arch arm: "aarch64", intel: "x64"
 
-  version "2.1.2"
-  sha256 arm:   "e4b7dd7cef5b22c9c1fad62f6879f905f346249933df7446175b6cf4fe9176a7",
-         intel: "8c12fa4602a67015cf254412bfd3c0e85db122c9a6cbed3481e8e15ba53b9f47"
+  version "2.2.0"
+  sha256 arm:   "6c7d552b7e8bc97ae5a55c921e3ac149bc3b9f738d72c24786be59aeeb045ea4",
+         intel: "2572b124e4d620cb69b94fa5ff2ed99fdbdaa6359ccc3425ee6ef97a3b5c1869"
 
   url "https://github.com/afonsojramos/qbz-macos/releases/download/v#{version}/QBZ_#{version}_#{arch}.dmg"
   name "QBZ"
